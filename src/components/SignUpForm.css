@@ -3,15 +3,24 @@
   border-top-left-radius: 18px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-
-  padding: 2px 20px;
+  font-size: 14px;
+  padding: 1px 20px;
   background-color: white;
   color: rgb(32, 32, 32);
+}
+.form input label {
+  padding: -10px;
+  margin: -10px;
 }
 .form p {
   text-align: left;
 }
+.form p::after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+}
 .inputContainer h5 {
-  margin: 8% 0;
+  margin: 7% 0;
   text-align: left;
 }
