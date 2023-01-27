@@ -1,0 +1,17 @@
+.form {
+  width: 35%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  padding: 2px 20px;
+  background-color: white;
+  color: rgb(32, 32, 32);
+}
+.form p {
+  text-align: left;
+}
+.inputContainer h5 {
+  margin: 8% 0;
+  text-align: left;
+}
