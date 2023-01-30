@@ -79,7 +79,7 @@ function SignUpForm() {
           value={check}
           class="form-check-input"
           type="checkbox"
-          onChange={(e) => setCheck(true)}
+          onChange={(e) => setCheck(!check)}
           id="flexCheckDefault"
         />
         <p class="form-check-p" for="flexCheckDefault">
